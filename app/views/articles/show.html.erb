@@ -1,0 +1,10 @@
+<h1><%= @article.title %></h1>
+
+<p>
+    <strong>Text:</strong><br>
+    <%= @article.text %>
+</p>
+
+<br>
+
+<%= link_to 'List of Articles', articles_path, class: 'btn btn-primary' %>
