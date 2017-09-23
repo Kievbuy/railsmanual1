@@ -1,6 +1,7 @@
 <h1>New Article</h1>
 
-<%= form_for :article do |f| %>
+
+<%= form_for :article, url: articles_path do |f| %>
   <p class="form-group">
     <%= f.label :title %><br>
     <%= f.text_field :title, class: "form-control" %>
